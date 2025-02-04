@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background-color: lightgray;
+    
+}
+header{
+    background-image: linear-gradient(violet,lightblue);
+    color: azure;
+    text-align: center;
+    padding: 5px;
+    
+}
+.navbar ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.navbar li{
+    display: inline;
+    margin: 0 0.5rem;
+}
+main{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 5px;
+}
+.navbar{
+    margin: 0 auto;
+    max-width: 800px;
+}
+aside{
+    margin: 0 auto;
+    max-width: 800px;
+    border-left: 2px solid gray;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+details summary{
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(violet,lightblue);
+    color: azure;
+    padding: 5px;
+}
